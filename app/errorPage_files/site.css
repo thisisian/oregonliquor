@@ -1,0 +1,153 @@
+/* general styles to be used across all pages (whether inside the framework or not) */
+
+
+/* fixed width stuff */
+#page {
+	max-width: 1110px;
+	min-width: 980px;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 0;
+	position: relative;
+	border: 1px solid #fff;
+	background: #d7ebf5; 
+}
+.banner {
+	min-width: 972px;
+	max-width: 1092px;
+	border: 1px solid #fff;
+	margin: 0 auto 10px auto;
+}
+
+
+body {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: small;
+	color: #000;
+	background-color: #808080 !important;
+}
+form, table, td, th, p, ul {
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: small;
+	text-align: left;
+	vertical-align: top;
+}
+label, .small-label {
+	font-size: 12px;
+	font-weight: normal;
+}
+h1 {
+	font-size: large;
+}
+h2 {   
+	font-size: medium;
+}
+h3, h4 {
+	font-size: small;
+}
+h1, h2, h3, h4 {
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	margin: 3px;
+}
+hr {
+	clear: both;
+	color: #ffffff;
+	background-color: #ffffff;
+	
+	/* added for opera & safari */
+	border: 1px solid #ffffff;
+}
+.link { text-decoration: underline; }
+a:link, .link { color: #0e4562; }
+a:visited { color: #0e4562; }
+a:hover { color: #dca205; }
+a:active{ color: #0e4562; }
+label {
+	display: block;
+}
+img {
+	margin: 0;	
+}
+.help {
+	text-decoration: none;
+	background: url('../../asset/image/help.gif') no-repeat;
+	padding-top: 3px;
+	vertical-align: bottom;
+}
+.italic {
+	font-style: italic;	
+}
+.center {
+	text-align: center;	
+	margin: auto !important;
+}
+.nowrap {
+	white-space: nowrap;	
+}
+#product-hint {
+	visibility: hidden;
+}
+#location-hint {
+	/* changed for netscape */
+	/*display: none;*/
+	visibility: hidden;
+}
+#footer {
+	clear: both;
+	height: 16px;
+	width: 100%;
+	font-size: small;
+	padding: 8px 0;
+	margin-top: 10px;
+	text-align: center;
+	background: #a4cbdc;
+	border-top: 1px solid #fff;
+}
+.banner, .error, .info, .warning {
+	background: #efefef;
+	padding: 5px;
+	border-spacing: 0;
+}
+.info, .warning {
+	border: 1px solid #808080 !important;
+	width: 97%;
+	margin: 10px auto;
+	text-align: center;
+}
+.error {
+	border: 2px solid #ab2a2c;
+	margin: 0 20px;
+}
+.info h1 {
+	text-align: left;	
+}
+.icon {
+	vertical-align: middle;
+	margin: 0 5px 3px 0;
+	border: 0;
+}
+
+.notice {
+	color: #ab2b2c;	
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: center;	
+}
+.hint-list {
+	list-style: none;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #fff;
+	border: 1px solid #808080;
+	color: #808080;
+}
+.help:hover {
+	background: url('../../asset/image/help_over.gif') no-repeat;
+}
+.small-label {
+	display: inline;
+}

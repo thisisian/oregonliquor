@@ -1,0 +1,25 @@
+/* print styles */
+#side, #header, #footer, #page-title, #results-header em, #back-print, #rpp, form, #tabs, img, #footnote {
+	display: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+body, #page, div#main-wrapper, div#main {
+	font-size: 10pt !important;
+	background: #ffffff !important;
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: 0 !important;
+}
+table {
+	width: 100% !important;
+}
+table, td, th {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	border-spacing: 0;
+	padding: 0 !important;
+	margin: 0 !important;
+	vertical-align: top !important;
+}
